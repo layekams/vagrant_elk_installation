@@ -1,0 +1,9 @@
+ssh-keygen -t rsa -b 4096 -C "abdoulayekama@gmail.com"
+
+after that go to https://github.com/settings/keys and click on new ssh keyssh-keygen -t rsa -b 4096 -C "abdoulayekama@gmail.com"
+
+after that go to https://github.com/settings/keys and click on new ssh key
+
+ssh-add ../.ssh/rsa_github
+
+git push -u origin master
