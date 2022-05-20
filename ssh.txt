@@ -10,6 +10,9 @@ git config push.default mastir
 
 git push -u origin master
 
+# github
+ssh-keygen -t ed25519 -C "abdoulayekama@gmail.com"
+
 # ssh
 ssh-keygen -A
 /etc/init.d/ssh status
